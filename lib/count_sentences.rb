@@ -18,7 +18,7 @@ class String
     count = self.split(/[!,.,?]/)
     i = 0
     counter = 0
-    binding.pry
+    # binding.pry
     while i < count.length
       if count[i] != ""
         counter += 1
