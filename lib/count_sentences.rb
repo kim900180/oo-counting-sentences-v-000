@@ -23,7 +23,7 @@ class String
       if count[i] != ""
         counter += 1
         i += 1
-      else
+      elsif count[i] == ""
         counter = counter
         i += 1
       end
